@@ -81,7 +81,7 @@ void mul_Stassen(int m, int **Ma, int **Mb, int **Mc){
     int **mt1 = new int *[m/2];
     int **mt2 = new int *[m/2];
 
-    for(int i=0;i<m;i++){
+    for(int i=0;i<m/2;i++){
         Ma11[i] = new int [m/2];
         Ma12[i] = new int [m/2];
         Ma21[i] = new int [m/2];
