@@ -208,7 +208,7 @@ void mul_Stassen(int m, int **Ma, int **Mb, int **Mc){
 }   
 
 int main(){
-    cout << "TO SHOW THE SQUARE MATRICES M(*integr power of 2*)" << endl;
+    cout << "TO SHOW THE SQUARE MATRICES M(*integer power of 2*)" << endl;
     cout << "please input M: ";
     int m;
     cin >> m;
