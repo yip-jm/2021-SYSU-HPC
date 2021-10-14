@@ -17,11 +17,12 @@ for(int i=0;i<n;i++){
 ```
 + STRASSEN
 
-  > [矩阵乘法的Strassen算法详解](https://www.cnblogs.com/hdk1993/p/4552534.html)
+  > [矩阵乘法的Strassen算法详解](https://www.cnblogs.com/hdk1993/p/4552534.html)  
+  > [STRASSEN.cpp](./mul-matrix-strassen.cpp)
 
 #### HW2 MulMat(MPI+.so)
 + MPI-p2p（点对点通信）  
-  > [MPI_p2p.cpp]（./mul-matrix-MPI-p2p.cpp）
+  > [MPI_p2p.cpp](/HW2-MulMat(MPI)/mul-matrix-MPI-p2p.cpp)
 + MPI-gather
 （集合通信）
 + .so文件编译
