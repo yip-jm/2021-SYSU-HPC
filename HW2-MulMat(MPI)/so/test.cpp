@@ -3,6 +3,10 @@
  * @Date: 2021.10.09
  * @E-mail: yejm6@mail2.sysu.edu.cn
  */
+//生成动态链接库： g++ mulmat.cpp -shared -fPIC -o libmulmat.so
+//将.so移动到/usr/lib/目录下： sudo cp /home/yip/HPC/2/so/libmulmat.so /usr/lib
+//链接默认链接的是/usr/lib/下的
+//生成可执行文件： g++ -o test test.cpp -L. -lmulmat
 
 #include<bits/stdc++.h>
 #include <dlfcn.h>
