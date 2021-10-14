@@ -21,7 +21,7 @@ for(int i=0;i<n;i++){
 
 #### HW2 MulMat(MPI+.so)
 + MPI-p2p（点对点通信）  
-  > MPI_p2p.cpp（/2021-SYSU-HPC/HW2(MPIMul_.so)/mul-matrix-MPI-p2p.cpp）
+  > [MPI_p2p.cpp]（./mul-matrix-MPI-p2p.cpp）
 + MPI-gather
 （集合通信）
 + .so文件编译
