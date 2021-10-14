@@ -56,7 +56,7 @@ void subMatrix(int n,int **leftM,int **rigM, int **resM){
     }
 }
 
-void mul_Stassen(int m, int **Ma, int **Mb, int **Mc){
+void mul_Strassen(int m, int **Ma, int **Mb, int **Mc){
     int **Ma11 = new int *[m/2];
     int **Ma12 = new int *[m/2];
     int **Ma21 = new int *[m/2];
@@ -231,7 +231,7 @@ int main(){
     
     clock_t start, end;
     start = clock();
-    mul_Stassen(m, M1, M2, M3);
+    mul_Strassen(m, M1, M2, M3);
     // printMatrix(m,M3);
     end = clock();
     cout << "RUN TIME: " << double(end-start)/CLOCKS_PER_SEC << "s" << endl;
