@@ -17,10 +17,10 @@ for(int i=0;i<n;i++){
 ```
 
 
-#### HW2 MulMattrix(MPI(p2p&gather)+.so)
-+ p2p
+#### HW2 MulMat(MPI+.so)
++ MPI-p2p
 ```
 ```
-+ gather
++ MPI-gather
 ```
 ```
