@@ -11,7 +11,6 @@ using namespace std;
 int o=0;
 
 void createMatrix(float*M, int row, int col){
-
     for(int i=0;i<row*col;i++){
         srand((int)time(0)+o);
         M[i] = random(100);
